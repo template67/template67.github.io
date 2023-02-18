@@ -723,11 +723,12 @@ li {
 @media (max-width : 479px) {
     
     #main-slide .item .slider-content{
-		display: none;
+		display: block;
+        height: 400px;
 	}
     
     #main-slide .item {
-        height: 180px;
+        height: 400px;
     }
     
 }
@@ -2054,6 +2055,6 @@ iframe {
         color: #fff;
     }
     
-}
+
 
 
