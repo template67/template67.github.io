@@ -21,6 +21,20 @@
     
     <!-- Animate CSS -->
     <link href="css/animate.css" rel="stylesheet" >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     
     <!-- Owl-Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.css" >
@@ -31,6 +45,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/home.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/home1.css" rel="stylesheet">
     
     <!-- Colors CSS -->
     <link rel="stylesheet" type="text/css" href="css/color/green.css">
@@ -1212,6 +1227,86 @@
             </div>
         </div>
     </section>-->
+    <section id="fixtures" class="call-to-action" style="background-color: white;" data-aos="slide-up"
+    data-aos-duration="900"
+    data-aos-easing="ease-out-quart">
+        <div class="container">
+            <div class="row">
+                <h3 style="margin-bottom: 50px;">NFF SPONSORSHIP PORTFOLIO</h3>
+                <div class="col-md-12">
+                    
+                    <div class="main_marquee_container carousel">
+                        <div class="slick-slider responsive">
+                          <div class="element">
+
+                            <div class="president_image">
+                                
+                              <img
+                                src="./images/GLO.jpeg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="element">
+                            <img src="./images/adidas.jpeg" alt="" />
+                          </div>
+                          <div class="element">
+                            <img src="./images/ait.jpg" alt="" />
+                          </div>
+                          <div class="element">
+                            <img src="./images/guiness.jpeg" alt="" />
+                          </div>
+                          <div class="element">
+                            <div class="president_image">
+                              <img
+                                src="./images/cocacola.jpeg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="element">
+                            <img src="./images/tomtom.jpeg" alt="" />
+                          </div>
+                          <div class="element">
+                            <img src="./images/milk.jpeg" alt="" />
+                          </div>
+                          <div class="element">
+                            <img src="./images/samsung.jpeg" alt="" />
+                          </div>
+                          <div class="element">
+                            <img src="./images/super.jpeg" alt="" />
+                          </div>
+                          <div class="element">
+                            <div class="president_image">
+                              <img
+                                src="./images/igi.jpeg"
+                                alt=""
+                              />
+                            </div>
+                          </div>
+                          <div class="element">
+                            <img src="./images/brila.jpeg" alt="" />
+                          </div>
+                          <div class="element">
+                            <img src="./images/zenith.jpeg" alt="" />
+                          </div>
+                          <div class="element">
+                            <img src="./images/emzor.jpeg" alt="" />
+                          </div>
+                          <div class="element">
+                            <img src="./images/nike.jpeg" alt="" />
+                          </div>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
+                    <!--<button type="submit" class="btn btn-primary">Buy This Template</button> -->
+                </div>
+            </div>
+        </div>
+    </section>
     
     
     
@@ -1260,6 +1355,17 @@
                             </div>
                         </div>
                     </form>
+                    <div 
+                    data-aos="zoom-out"
+                    data-aos-duration="900"
+                    data-aos-easing="ease-out-quart">
+                  <p id="correct_response">
+                    Thank you for contacting us, your message has been sent.
+                  </p>
+                  <p id="error_response">
+                    Error! Your message has not been sent. Please Try again!.
+                  </p>
+                  </div>
                 </div>
             </div>
             <div class="row">
@@ -1356,6 +1462,7 @@
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+    <script src="js/form.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/script.js"></script>
@@ -1363,6 +1470,35 @@
     <script>
       AOS.init({ once: true });
     </script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"
+    integrity="sha512-WNZwVebQjhSxEzwbettGuQgWxbpYdoLf7mH+25A7sfQbbxKeS5SQ9QBf97zOY4nOlwtksgDA/czSTmfj4DUEiQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script>
+    $(".responsive").slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      pauseOnHover: false,
+      draggable: false,
+      speed: 4500,
+      autoplaySpeed: 40,
+      cssEase: "linear",
+    });
+    $('.autoplay').slick({
+      infinite: true,
+      dots: true,
+      pauseOnHover: false,
+      draggable: false,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      speed: 2500
+      
+    });
+  </script>
 
 </body>
 
